@@ -6,11 +6,11 @@
 * {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 body {
-    height: 100vh;
-    overflow: scroll;
-    box-sizing: border-box;
+    width: 100%;
+    min-height: 100vh;
     font-family: 'Noto Sans', sans-serif;
     font-family: 'Oswald', sans-serif;
 }
@@ -91,7 +91,7 @@ footer {
     min-height: 5vh;
     background: black;
     color: white;
-    padding-top: 20px;
+    padding-top: 10px;
     padding-right: 20px;
 
 }
