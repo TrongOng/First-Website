@@ -1,0 +1,100 @@
+
+:root {
+    --contentColor: radial-gradient(closest-side, #1b2735 0%,#090a0f 100%);
+
+}
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    height: 100vh;
+    overflow: scroll;
+    box-sizing: border-box;
+    font-family: 'Noto Sans', sans-serif;
+    font-family: 'Oswald', sans-serif;
+}
+.light_mode {
+    --contentColor: radial-gradient(closest-side, #444e5a 0%,#262831 100%);
+ } 
+.content {
+    min-height: 45vh;
+    text-align: center;
+    justify-content: center;
+    background: var(--contentColor);
+    color: white;
+    padding: 10%;
+}
+.content h1 {
+    padding: 30px;
+}
+.content h2 {
+    font-size: 35px;
+}
+.links {
+    font-weight: 500;
+    font-size: 20px;
+    background: transparent
+}
+.links li {
+    display: inline-block;
+    transition: all 0.3s ease 0s;
+}
+.links li a {
+    text-decoration: none;
+    list-style: none;
+    color: white;
+    padding: 10px;
+}
+.links li a:hover {
+    color: rgb(112, 110, 110);
+    cursor: pointer;
+}
+audio {
+    margin-top: 50px;
+}
+.bio {
+    min-height: 45vh;
+    background: radial-gradient(#1b2735, #090a0f);
+    display: flex;
+
+}
+.bioContent {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    margin: 50px;
+}
+.picture {
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 400px;
+    box-shadow: 10px 10px 5px rgb(65, 122, 141);
+}
+.text {
+    width: 50%;
+    text-align: justify;
+    color: white;
+    margin: 0px 0px 0px 50px;
+}
+.text span {
+    color: rgb(131, 22, 22);
+}
+.text p {
+    color:rgb(112, 110, 110);
+    padding-top: 7px;
+}
+.text h3 {
+    padding-top: 10px;
+}
+footer {
+    min-height: 5vh;
+    background: black;
+    color: white;
+    padding-top: 20px;
+    padding-right: 20px;
+
+}
+footer p {
+    float: right;
+}

@@ -1,0 +1,53 @@
+
+header {
+    align-items: center;
+    min-height: 15vh;
+    background: black;
+}
+.logo {
+    float: left;
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 130px;
+    padding: 10px 0px 0px 50px;
+    cursor: pointer;
+}
+.navigation {
+    font-weight: 500;
+    font-size: 20px;
+    background: transparent;
+    float: right;
+    margin: 30px 50px 20px auto;
+}
+.navigation li {
+    display: inline-block;
+    padding: 20px;
+    transition: all 0.3s ease 0s;
+    position: relative;
+}
+.navigation li a {
+    text-decoration: none;
+    list-style: none;
+    color: white;
+}
+.navigation li a:hover {
+    color: rgb(112, 110, 110);
+    cursor: pointer;
+}
+.navigation #menu:hover {
+    color: rgb(112, 110, 110);
+    cursor: pointer;
+}
+#dropdown {
+    display: none;
+    position: absolute;
+    width: 100%;
+    text-align: center;
+    left: 0;
+}
+#dropdown li {
+    padding: 10px;
+}
+#dropdown.active {
+    display: block;
+}

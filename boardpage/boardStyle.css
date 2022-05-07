@@ -1,0 +1,112 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    min-height: 100vh;
+    overflow: scroll;
+    box-sizing: border-box;
+    font-family: 'Noto Sans', sans-serif;
+    font-family: 'Oswald', sans-serif;
+}
+.playerOne {
+    color: white;
+    padding: 10px
+}
+.blackTaken {
+    width: 20px;
+    height: 20px;
+    padding: 13px 25px;
+    background-color: black;
+    border: 2px solid white;
+    border-radius: 50%;
+    margin: 4px;
+}
+.playerTwo {
+    color: white;
+    padding: 10px
+}
+.redTaken {
+    width: 20px;
+    height: 20px;
+    padding: 13px 25px;
+    background-color: red;
+    border: 2px solid white;
+    border-radius: 50%;
+    margin: 4px;
+}
+table {
+    padding: 10px;
+}
+td {
+    width: 80px;
+    height: 80px;
+    text-align: center;
+}
+.invalidSlot {
+    background-color: #1f1818;
+}
+.empty {
+    background-color: #ad5450;
+}
+.redPiece {
+    width: 25px;
+    height: 25px;
+    padding: 20px 31px;
+    background-color: red;
+    border: 2px solid white;
+    border-radius: 50%;
+}
+
+.blackPiece {
+    width: 25px;
+    height: 25px;
+    padding: 20px 31px;
+    background-color: black;
+    border: 2px solid white;
+    border-radius: 50%;
+
+}
+.king.redPiece {
+    background-color: #;
+}
+.king.blackPiece {
+    background-color: #;
+}
+.potentialSpace {
+    width: 25px;
+    height: 25px;
+    padding: 20px 31px;
+    background-color: grey;
+    border: 2px solid grey;
+    border-radius: 50%;
+}
+.grid-container {
+    min-height: 100vh;
+    display: grid;
+    grid-template-columns: 60% 40%;
+    justify-items: center;
+    background: radial-gradient(closest-side, #1b2735 0%,#090a0f 100%);
+}
+.firstSection {
+    color: white;
+}
+.secondSection {
+    color: white;
+    background: radial-gradient(ellipse at bottom, #36383a 0%,#282b3a 100%);
+    padding: 50px;
+    margin: 30px;
+    text-align: center;
+}
+footer {
+    min-height: 5vh;
+    background: black;
+    color: white;
+    padding-top: 20px;
+    padding-right: 20px;
+
+}
+footer p {
+    float: right;
+}
+

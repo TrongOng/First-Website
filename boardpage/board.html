@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./boardStyle.css">
+    <link rel="stylesheet" href="../navigation.css">
+    <script src="./boardScript.js"></script>
+    <script src="../navScript.js"></script>
+    <!--Fonts Header-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@600;800&family=Oswald:wght@700&family=Sedgwick+Ave&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header> 
+        <a href="../index.html"><img class="logo" src="../logo1.png" alt="logo"></a>
+        <nav>
+            <ul class="navigation">
+                <li><a href="../index.html">[ Home ]</a></li>
+                <li><a href="../resumepage/resume.html">[ Resume ]</a></li>
+                <li id="menu"><a href="#">[ Projects ]
+                    <ul id="dropdown">
+                        <li><a href="./board.html">Checker Board Game</a></li>
+                    </ul>
+                </a></li>
+            </ul>
+        </nav>
+    </header>
+    <!--background stars-->
+    <!--Grid-->
+    <div class="grid-container">
+        <!--First Section Grid-->
+        <div class="firstSection">
+            <!--Player One Score-->
+            <div class="playerOne">
+                <p>Player One |</p>
+                <br>
+                <table class="scoreOne">
+                    <tr><span class="blackTaken"></span></tr><tr><span class="blackTaken"></span></tr><tr><span class="blackTaken"></span></tr><tr><span class="blackTaken"></span></tr>
+                    <tr><span class="blackTaken"></span></tr><tr><span class="blackTaken"></span></tr><tr><span class="blackTaken"></span></tr><tr><span class="blackTaken"></span></tr>
+                    <tr><span class="blackTaken"></span></tr><tr><span class="blackTaken"></span></tr><tr><span class="blackTaken"></span></tr><tr><span class="blackTaken"></span></tr>
+                </table>
+            </div>
+            <!--Table-->
+            <table>
+                <tr>
+                    <td class="invalidSlot"><span id="0"></span></td><td class ="empty"><span class="redPiece" id="1"></span></td><td class="invalidSlot"><span id="0"></span></td><td class ="empty"><span class="redPiece" id="3"></span></td><td class="invalidSlot"><span id="0"></span></td><td class ="empty"><span class="redPiece" id="5"></span></td><td class="invalidSlot"><span id="0"></span></td><td class ="empty"><span class="redPiece" id="7"></span></td>
+                </tr>
+                <tr>
+                    <td class ="empty"><span class="redPiece" id="8"></span></td><td class="invalidSlot"><span id="0"></span></td><td class ="empty"><span class="redPiece" id="10"></span></td><td class="invalidSlot"><span id="0"></span></td><td class ="empty"><span class="redPiece" id="12"></span></td><td class="invalidSlot"><span id="0"></span></td><td class ="empty"><span class="redPiece" id="14"></span></td><td class="invalidSlot"><span id="0"></span></td>
+                </tr>
+                <tr>
+                    <td class="invalidSlot"><span id="0"></span></td><td class ="empty"><span class="redPiece" id="17"></span></td><td class="invalidSlot"><span id="0"></span></td><td class ="empty"><span class="redPiece" id="19"></span></td><td class="invalidSlot"><span id="0"></span></td><td class ="empty"><span class="redPiece" id="21"></span></td><td class="invalidSlot"><span id="0"></span></td><td class ="empty"><span class="redPiece" id="23"></span></td>    
+                </tr>
+                <tr>
+                    <td class ="empty"><span id="24"></span></td><td class="invalidSlot"><span id="0"></span></td><td class ="empty"><span id="26"></span></td><td class="invalidSlot"><span id="0"></span></td><td class ="empty"><span id="28"></span></td><td class="invalidSlot"><span id="0"></span></td><td class ="empty"><span id="30"></span></td><td class="invalidSlot"><span id="0"></span></td>
+                </tr>
+                <tr>
+                    <td class="invalidSlot"><span id="0"></span></td><td class ="empty"><span id="33"></span></td><td class="invalidSlot"><span id="0"></span></td><td class ="empty"><span id="35"></span></td><td class="invalidSlot"><span id="0"></span></td><td class ="empty"><span id="37"></span></td><td class="invalidSlot"><span id="0"></span></td><td class ="empty"><span id="39"></span></td>
+                </tr>
+                <tr>
+                    <td class ="empty"><span class="blackPiece" id="40"></span></td><td class="invalidSlot"><span id="0"></span></td><td class ="empty"><span class="blackPiece" id="42"></span></td><td class="invalidSlot"><span id="0"></span></td><td class ="empty"><span class="blackPiece" id="44"></span></td><td class="invalidSlot"><span id="0"></span></td><td class ="empty"><span class="blackPiece" id="46"></span></td><td class="invalidSlot"><span id="0"></span></td>
+                </tr>
+                <tr>
+                    <td class="invalidSlot"><span id="0"></span></td><td class ="empty"><span class="blackPiece" id="49"></span></td><td class="invalidSlot"><span id="0"></span></td><td class ="empty"><span class="blackPiece" id="51"></span></td><td class="invalidSlot"><span id="0"></span></td><td class ="empty"><span class="blackPiece" id="53"></span></td><td class="invalidSlot"><span id="0"></span></td><td class ="empty"><span class="blackPiece" id="55"></span></td>
+                </tr>
+                <tr>
+                    <td class ="empty"><span class="blackPiece" id="56"></span></td><td class="invalidSlot"><span id="0"></span></td><td class ="empty"><span class="blackPiece" id="58"></span></td><td class="invalidSlot"><span id="0"></span></td><td class ="empty"><span class="blackPiece" id="60"></span></td><td class="invalidSlot"><span id="0"></span></td><td class ="empty"><span class="blackPiece" id="62"></td><td class="invalidSlot"><span id="0"></span></td>
+                </tr>
+            </table>
+            <!--Player Two Score-->
+            <div class="playerTwo">
+                <p>Player Two |</p>
+                <br>
+                <table class="scoreTwo">
+                    <tr><span class="redTaken"></span></tr><tr><span class="redTaken"></span></tr><tr><span class="redTaken"></span></tr><tr><span class="redTaken"></span></tr>
+                    <tr><span class="redTaken"></span></tr><tr><span class="redTaken"></span></tr><tr><span class="redTaken"></span></tr><tr><span class="redTaken"></span></tr>
+                    <tr><span class="redTaken"></span></tr><tr><span class="redTaken"></span></tr><tr><span class="redTaken"></span></tr><tr><span class="redTaken"></span></tr>
+                </table>
+            </div>
+        </div>
+        <!--Second Section of Column-->
+        <div class="secondSection">
+            <div><h1>Checker Board Game</h1></div>
+            <br> 
+            <div>
+                <h2>How To Play?</h2>
+                <br>
+                <p>A single checker can move forward diagonally one space per turn. To capture an opponent's checker, a player may jump
+                    over a diagonally adjacent opponent's checker. The space on the other side of the opponent's checker must be open. Multiple
+                    checkers can be captured if jumped consecutively with the same checker. If a checker makes it to the other side of the board, it is 
+                    kinged. To king a checker, another checker is placed on top of it. A kinged checker can move forward or backward on the board. The 
+                    first player to capture all the opponent's checkers wins. If a player is unable to makea move, he/she loses the game.
+                </p>
+                <p>Good Luck and Have Fun!</p>
+            </div>
+            <br>
+            <br>
+            <div>
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/ScKIdStgAfU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>  
+        </div>
+    </div>
+    <footer>
+        <p>@Continuous Learning</p>
+    </footer>
+    
+</body>
+</html>

@@ -1,0 +1,6 @@
+1. If side id are available go, if not no
+2. Don't worry about piece id rather worry about spot cell
+3. validMove by class ahead or empty slot ahead
+4. dont need backend board maybe
+5. innerHTML
+6. worry AI later down future
